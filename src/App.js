@@ -13,6 +13,9 @@ function App() {
     <div className="App">
       <Router>
         <Navbar />
+        <div style={{display: "flex", justifyContent: "center"}}>
+          <Sphere />
+        </div>
         <Routes>
           <Route path='/' exact element={<Home/>}/>
           <Route path='/menu' exact element={<Menu/>}/>
