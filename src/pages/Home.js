@@ -9,10 +9,10 @@ function Home() {
         <div className ="home" style={{ backgroundImage: `url(${bg})`}}>
            <div className="headerContainer">
                 <h1>
-                    <Typewriter text = "Salvatore Del Vecchio" delay = {100}/>
+                    <Typewriter texts = {["Salvatore Del Vecchio"]} delay = {100} repeat = {false}/>
                 </h1>
                 <p>
-                    <Typewriter text = "Computer Science Student" delay = {100}/>
+                    <Typewriter texts = {["Computer Science Student", "Diverse Project Devloper", "Active Github User"]} delay = {100} repeat = {true}/>
                 </p>
                 <Link to="/menu">
                 <button>Learn More</button>

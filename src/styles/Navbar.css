@@ -13,8 +13,11 @@
     padding-left: 150px;
 }
 
-.navbar .left img {
-    width: 70px
+.navbar .left h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 50;
+    color: white;
 }
 
 .navbar .right {
