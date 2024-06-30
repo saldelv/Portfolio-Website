@@ -13,7 +13,8 @@ function Projects() {
                     key ={key}
                     image={projectsItem.image} 
                     name={projectsItem.name} 
-                    description={projectsItem.description}/>
+                    description={projectsItem.description}
+                    link={(projectsItem.link)}/>
                     );
                 })}
             </div>
