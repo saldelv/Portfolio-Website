@@ -9,7 +9,7 @@
 }
 
 .projects .projectsTitle {
-    font-family: cursive;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 60px;
     -webkit-text-stroke-color: white;
     -webkit-text-stroke-width: 0.4px;
@@ -25,7 +25,7 @@
 
 .projectsItem {
     border-radius: 15px;
-    width: 300px;
+    width: 320px;
     height: 420px;
     margin: 20px;
     box-shadow: 0px 3px 15px black;
@@ -36,6 +36,8 @@
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     transition: 0.3s ease-in;
     cursor: pointer;
+    position: relative;
+    bottom: 20px;
 }
 
 .projectsItem div {

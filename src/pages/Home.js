@@ -14,7 +14,7 @@ function Home() {
                 <p>
                     <Typewriter texts = {["Computer Science Student", "Diverse Project Devloper", "Active Github User"]} delay = {100} repeat = {true}/>
                 </p>
-                <Link to="/menu">
+                <Link to="/about">
                 <button>Learn More</button>
                 </Link>
            </div>
