@@ -31,10 +31,4 @@ export const ProjectList = [
         description: "Chrome extension to keep track of the amount of times a page is visited",
         link: "https://github.com/saldelv/Web-Page-Count-Chrome-Extension"
     },
-    {
-        name: "Item",
-        image: icon,
-        description: "ok",
-        link: "https://github.com/saldelv/Desktop-RPG"
-    },
 ];

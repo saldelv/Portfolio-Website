@@ -14,10 +14,13 @@ function Projects() {
                     image={projectsItem.image} 
                     name={projectsItem.name} 
                     description={projectsItem.description}
-                    link={(projectsItem.link)}/>
+                    link={projectsItem.link}/>
                     );
                 })}
             </div>
+            <a target="_blank" rel="noopener noreferrer" href={`https://github.com/saldelv`}>
+                <button>My GitHub</button>
+            </a>
         </div>
     )
 }

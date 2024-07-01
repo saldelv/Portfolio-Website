@@ -5,7 +5,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #2c4c9e;
+    background-color: hwb(223 40% 28%);
+    animation: fade-in 1s;
 }
 
 .projects .projectsTitle {
@@ -37,6 +38,7 @@
     transition: 0.3s ease-in;
     cursor: pointer;
     position: relative;
+    animation: move-up 1s;
     bottom: 20px;
 }
 
@@ -54,6 +56,22 @@
     text-align: center;
 }
 
+.projects button {
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    background-color: #121619;
+    height: 100px;
+    width: 360px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
 @media only screen and (max-width: 1300px) {
     .projectsList {
         grid-template-columns: 1fr 1fr;
@@ -63,5 +81,23 @@
 @media only screen and (max-width: 800px) {
     .projectsList {
         grid-template-columns: 1fr;
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100;
+    }
+  }
+
+@keyframes move-up {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 20px;
     }
 }
