@@ -53,11 +53,18 @@ function About() {
                 </div>
 
                 <div className = "skills">
-                    <img src = {pythonlogo}></img>
-                    <img src = {javalogo}></img>
-                    <img src = {javascriptlogo}></img>
-                    <img src = {gitlogo}></img>
-                    <img src = {cpplogo}></img>
+                    <div className = "skillsImages">
+                        {SkillList.map((sItem, key) => {
+                            return (
+                            <div>
+                                <div className = "hidden">
+                                    <p>{sItem.name}</p>
+                                </div>
+                                <img src = {sItem.image}></img>
+                            </div>
+                            )
+                        })}
+                    </div>
                     <div className="skillsText">
                         <h2>Skills</h2>
                         <ul>
@@ -68,9 +75,6 @@ function About() {
                             <li>C++</li>
                             <li>Software Development</li>
                         </ul>
-                    </div>
-                    <div className = "hidden">
-                        <p>Python Java JavaScript Git C++</p>
                     </div>
                 </div>
             </div>

@@ -26,10 +26,6 @@
     flex-direction: column;
 }
 
-.aboutBottom p {
-    width: 1200px;
-}
-
 .about .aboutBottom h1 {
     font-weight: 400;
     font-size: 70px;
@@ -76,22 +72,25 @@
     justify-content: right;
 }
 
+.about .aboutBottom .skills .skillsImages {
+    display: flex;
+    flex-direction: row;
+}
+
 .about .aboutBottom .skills img {
     height: 100px;
     width: 100px;
-    margin-left: 260px;
     margin-top: 70px;
-    margin-right: -100px;
+    margin-left: 10px;
+    margin-right: 110px;
 }
 
 .about .aboutBottom .skills .hidden {
-    display: none;
-    margin-top: 70px;
-
+    visibility: hidden;
 }
 
 .about .aboutBottom .skills:hover .hidden {
-    display: block;
+    visibility: visible;
 }
 
 @keyframes fade-in {
