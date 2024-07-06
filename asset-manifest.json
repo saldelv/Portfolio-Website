@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.acf3f040.css",
-    "main.js": "/portfolio-website/static/js/main.b9061ac6.js",
-    "static/js/453.68693753.chunk.js": "/portfolio-website/static/js/453.68693753.chunk.js",
-    "static/media/banner.PNG": "/portfolio-website/static/media/banner.82340b9ef7954d41e2b0.PNG",
-    "static/media/bg1.PNG": "/portfolio-website/static/media/bg1.5304a552529c0b30cc2a.PNG",
-    "static/media/r.jpg": "/portfolio-website/static/media/r.c2aa5ad55aab4c6ed85b.jpg",
-    "static/media/wmlogo.png": "/portfolio-website/static/media/wmlogo.ba54bc8d15d49ef31e4c.png",
-    "static/media/javascriptlogo.png": "/portfolio-website/static/media/javascriptlogo.ea1687b273c19d4adec7.png",
-    "static/media/cpplogo.png": "/portfolio-website/static/media/cpplogo.bb4695fb32b4cab68699.png",
-    "static/media/contact.PNG": "/portfolio-website/static/media/contact.dee77be20aee36845314.PNG",
-    "static/media/pythonlogo.png": "/portfolio-website/static/media/pythonlogo.4fd08e3a50c6a289fc03.png",
-    "static/media/javalogo.png": "/portfolio-website/static/media/javalogo.375f91150aebfc2e19ef.png",
-    "index.html": "/portfolio-website/index.html",
-    "main.acf3f040.css.map": "/portfolio-website/static/css/main.acf3f040.css.map",
-    "main.b9061ac6.js.map": "/portfolio-website/static/js/main.b9061ac6.js.map",
-    "453.68693753.chunk.js.map": "/portfolio-website/static/js/453.68693753.chunk.js.map"
+    "main.css": "/Portfolio-Website/static/css/main.acf3f040.css",
+    "main.js": "/Portfolio-Website/static/js/main.de127c54.js",
+    "static/js/453.68693753.chunk.js": "/Portfolio-Website/static/js/453.68693753.chunk.js",
+    "static/media/banner.PNG": "/Portfolio-Website/static/media/banner.82340b9ef7954d41e2b0.PNG",
+    "static/media/bg1.PNG": "/Portfolio-Website/static/media/bg1.5304a552529c0b30cc2a.PNG",
+    "static/media/r.jpg": "/Portfolio-Website/static/media/r.c2aa5ad55aab4c6ed85b.jpg",
+    "static/media/wmlogo.png": "/Portfolio-Website/static/media/wmlogo.ba54bc8d15d49ef31e4c.png",
+    "static/media/javascriptlogo.png": "/Portfolio-Website/static/media/javascriptlogo.ea1687b273c19d4adec7.png",
+    "static/media/cpplogo.png": "/Portfolio-Website/static/media/cpplogo.bb4695fb32b4cab68699.png",
+    "static/media/contact.PNG": "/Portfolio-Website/static/media/contact.dee77be20aee36845314.PNG",
+    "static/media/pythonlogo.png": "/Portfolio-Website/static/media/pythonlogo.4fd08e3a50c6a289fc03.png",
+    "static/media/javalogo.png": "/Portfolio-Website/static/media/javalogo.375f91150aebfc2e19ef.png",
+    "index.html": "/Portfolio-Website/index.html",
+    "main.acf3f040.css.map": "/Portfolio-Website/static/css/main.acf3f040.css.map",
+    "main.de127c54.js.map": "/Portfolio-Website/static/js/main.de127c54.js.map",
+    "453.68693753.chunk.js.map": "/Portfolio-Website/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.acf3f040.css",
-    "static/js/main.b9061ac6.js"
+    "static/js/main.de127c54.js"
   ]
 }
