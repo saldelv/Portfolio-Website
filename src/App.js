@@ -11,7 +11,7 @@ import Sphere from './components/Sphere';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Navbar />
         <div style={{display: "flex", justifyContent: "center"}}>
           <Sphere />
