@@ -1,5 +1,5 @@
 import React from 'react'
-import BannerImage from '../assets/r.jpg';
+import BannerImage from '../assets/contact.PNG';
 import '../styles/Contact.css'
 
 function Contact() {

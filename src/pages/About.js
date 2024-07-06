@@ -2,7 +2,36 @@ import React from 'react'
 import BannerImage from '../assets/banner.PNG';
 import wmlogo from '../assets/wmlogo.png';
 import pythonlogo from '../assets/pythonlogo.png'
+import javalogo from '../assets/javalogo.png'
+import javascriptlogo from '../assets/javascriptlogo.png'
+import gitlogo from '../assets/gitlogo.png'
+import cpplogo from '../assets/cpplogo.png'
+
 import '../styles/About.css'
+
+const SkillList = [
+    {
+        name: "Python",
+        image: pythonlogo
+    },
+    {
+        name: "Java",
+        image: javalogo
+    },
+    {
+        name: "JavaScript",
+        image: javascriptlogo
+    },
+    {
+        name: "Git",
+        image: gitlogo
+    },
+    {
+        name: "C++",
+        image: cpplogo
+    }
+]
+    
 
 function About() {
     return (
@@ -24,7 +53,11 @@ function About() {
                 </div>
 
                 <div className = "skills">
-                <img src = {pythonlogo}></img>
+                    <img src = {pythonlogo}></img>
+                    <img src = {javalogo}></img>
+                    <img src = {javascriptlogo}></img>
+                    <img src = {gitlogo}></img>
+                    <img src = {cpplogo}></img>
                     <div className="skillsText">
                         <h2>Skills</h2>
                         <ul>
@@ -32,9 +65,12 @@ function About() {
                             <li>Java</li>
                             <li>JavaScript</li>
                             <li>Git</li>
-                            <li>HTML</li>
+                            <li>C++</li>
                             <li>Software Development</li>
                         </ul>
+                    </div>
+                    <div className = "hidden">
+                        <p>Python Java JavaScript Git C++</p>
                     </div>
                 </div>
             </div>

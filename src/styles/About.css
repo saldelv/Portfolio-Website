@@ -79,12 +79,19 @@
 .about .aboutBottom .skills img {
     height: 100px;
     width: 100px;
-    margin-left: 300px;
+    margin-left: 260px;
     margin-top: 70px;
+    margin-right: -100px;
 }
 
-.about .aboutBottom .skills img:hover {
-    height: 200px;
+.about .aboutBottom .skills .hidden {
+    display: none;
+    margin-top: 70px;
+
+}
+
+.about .aboutBottom .skills:hover .hidden {
+    display: block;
 }
 
 @keyframes fade-in {
