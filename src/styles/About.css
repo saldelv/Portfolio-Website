@@ -76,6 +76,17 @@
     justify-content: right;
 }
 
+.about .aboutBottom .skills img {
+    height: 100px;
+    width: 100px;
+    margin-left: 300px;
+    margin-top: 70px;
+}
+
+.about .aboutBottom .skills img:hover {
+    height: 200px;
+}
+
 @keyframes fade-in {
     from {
         opacity: 0;

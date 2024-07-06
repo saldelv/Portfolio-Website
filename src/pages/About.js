@@ -1,6 +1,7 @@
 import React from 'react'
 import BannerImage from '../assets/banner.PNG';
 import wmlogo from '../assets/wmlogo.png';
+import pythonlogo from '../assets/pythonlogo.png'
 import '../styles/About.css'
 
 function About() {
@@ -14,8 +15,8 @@ function About() {
                     <div className="educationText">
                         <h2>Education</h2>
                         <ul>
-                            <li>Currently a junior enrolled at The College of William & Mary (2022-current)</li>
                             <li>Studying Computer Science</li>
+                            <li>Currently a junior enrolled at The College of William & Mary (2022-current)</li>
                             <li>Relevent courses include Data Structures, Algorithms, Discrete Structures, <br /> Linear Algebra, Software Development, and more</li>
                         </ul>
                     </div>
@@ -23,10 +24,16 @@ function About() {
                 </div>
 
                 <div className = "skills">
+                <img src = {pythonlogo}></img>
                     <div className="skillsText">
                         <h2>Skills</h2>
                         <ul>
-                            <li>Currently a junior enrolled at The College of William & Mary (2022-current)</li>
+                            <li>Python</li>
+                            <li>Java</li>
+                            <li>JavaScript</li>
+                            <li>Git</li>
+                            <li>HTML</li>
+                            <li>Software Development</li>
                         </ul>
                     </div>
                 </div>
