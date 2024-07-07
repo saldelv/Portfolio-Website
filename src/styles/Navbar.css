@@ -35,7 +35,7 @@
     margin: 20px;
 }
 
-.navbar .right button {
+.navbar .right .reorderButton {
     background-color: transparent;
     border: none;
     color: white;
@@ -92,13 +92,13 @@
         padding-right: 50px;
     }
 
-    .navbar .right button {
+    .navbar .right .reorderButton {
         display: inherit;
     }
 }
 
 @media only screen and (min-width: 600px) {
-    .navbar .right button {
+    .navbar .right .reorderButton {
         display: none;
     }
 

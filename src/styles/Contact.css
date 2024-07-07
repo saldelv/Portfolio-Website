@@ -2,6 +2,7 @@
     width: 100%;
     height: 90vh;
     display: flex;
+    background-color: hwb(223 40% 28%);
     animation: fade-in 1s;
 }
 
@@ -11,7 +12,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: conver;
+    filter: drop-shadow(0px 3px 10px black)
 }
+
 
 .contact .right {
     height: 100%;
@@ -42,6 +45,7 @@ form input {
     border: none;
     border-bottom: 1px solid #121619;
     color: black;
+    box-shadow: 0px 3px 10px black;
 }
 
 form textarea {
@@ -51,6 +55,7 @@ form textarea {
     border: none;
     border-bottom: 1px solid #121619;
     color: black;
+    box-shadow: 0px 3px 10px black;
 }
 
 input::placeholder, textarea::placeholder {
@@ -65,7 +70,7 @@ form input:focus, textarea:focus {
 
 form label {
     margin-top: 15px;
-    color: grey;
+    color: black;
 }
 
 form button {
@@ -77,6 +82,7 @@ form button {
     color: whitesmoke;
     font-size: 15px;
     cursor: pointer;
+    box-shadow: 0px 3px 10px black;
 }
 
 @keyframes fade-in {
