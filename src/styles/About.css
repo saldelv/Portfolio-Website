@@ -85,11 +85,13 @@
     margin-right: 110px;
 }
 
-.about .aboutBottom .skills .hidden {
+.about .aboutBottom .skills .item .hidden {
     visibility: hidden;
+    font-family: cursive;
+    margin-left: 20px;
 }
 
-.about .aboutBottom .skills:hover .hidden {
+.about .aboutBottom .skills .item:hover .hidden {
     visibility: visible;
 }
 

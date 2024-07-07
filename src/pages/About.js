@@ -56,7 +56,7 @@ function About() {
                     <div className = "skillsImages">
                         {SkillList.map((sItem, key) => {
                             return (
-                            <div>
+                            <div className="item">
                                 <div className = "hidden">
                                     <p>{sItem.name}</p>
                                 </div>
