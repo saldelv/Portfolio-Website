@@ -10,30 +10,30 @@ function Contact() {
         setResult("Sending....");
         const formData = new FormData(event.target);
 
-        formData.append("access_key", "YOUR_ACCESS_KEY_HERE");
+        formData.append("access_key", process.env.REACT_APP_WEB3FORMS_API_KEY);
 
         const response = await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        body: formData
+            method: "POST",
+            body: formData
         });
 
         const data = await response.json();
 
         if (data.success) {
-        setResult("Form Submitted Successfully");
-        event.target.reset();
+            setResult("Form Successfully Submitted to Salvatore");
+            event.target.reset();
         } else {
-        console.log("Error", data);
-        setResult(data.message);
+            console.log("Error", data);
+            setResult(data.message);
         }
     };
-    
+
     return (
         <div className="contact">
             <div className="left" style={{ backgroundImage: `url(${BannerImage})`}}></div>
             <div className="right">
                 <h1> Contact Me </h1>
-                <form id="contact-form" method="POST">
+                <form id="contact-form" method="POST" onSubmit={onSubmit}>
                     <label htmlFor="name">Full Name</label>
                     <input name="name" placeholder="Enter full name" type="text" required/>
                     <label htmlFor="email">Email</label>
