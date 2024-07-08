@@ -1,6 +1,7 @@
 import React from 'react'
 import BannerImage from '../assets/banner.PNG';
 import wmlogo from '../assets/wmlogo.png';
+import archery from '../assets/archery.jpg';
 import pythonlogo from '../assets/pythonlogo.png'
 import javalogo from '../assets/javalogo.png'
 import javascriptlogo from '../assets/javascriptlogo.png'
@@ -77,6 +78,22 @@ function About() {
                         </ul>
                     </div>
                 </div>
+
+                <div className = "activities">
+                    <div className="activitiesText">
+                        <h2>Activities</h2>
+                        <ul>
+                            <li>Archery:</li>
+                            <ul className='secondList'>
+                                <li>W&M Archery Club Armorer and Team Captain</li>
+                                <li>USA Archery certified level 2 coach</li>
+                                <li>Competed at a national level</li>
+                            </ul>
+                        </ul>
+                    </div>
+                    <img src = {archery}></img>
+                </div>
+
             </div>
         </div>
     )

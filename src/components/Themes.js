@@ -3,13 +3,14 @@ import '../styles/Themes.css'
 
 const themeColors = [
     {
-        color: '#667db8'
-    },
-    {
         color: 'white'
     },
     {
         color: '#3a3a3a'
+    },
+    {
+        
+        color: '#667db8'
     },
     {
         color: '#66b883'
@@ -25,7 +26,7 @@ const themeColors = [
 function Themes() {
 
     const [open, setOpen] = useState(false);
-    const [backColor, setBackColor] = useState('#667db8');
+    const [backColor, setBackColor] = useState('white');
 
     function setColor(color) {
         setBackColor(color);

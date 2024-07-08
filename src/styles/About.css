@@ -94,6 +94,20 @@
     visibility: visible;
 }
 
+.activities {
+    margin-top: 200px;
+    display: flex;
+}
+
+.secondList {
+    list-style-position: outside;
+}
+
+.about .aboutBottom .activities img {
+    margin-left: 300px;
+    margin-bottom: 20px;
+}
+
 @keyframes fade-in {
     from {
         opacity: 0;
