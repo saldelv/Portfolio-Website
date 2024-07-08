@@ -4,8 +4,7 @@
     margin-right: 15px;
 }
 
-.themes button {
-    background-color: hwb(223 40% 28%);
+.themes button{
     border: none;
     border-radius: 50%;
     cursor: pointer;
@@ -17,16 +16,45 @@
     outline-style: solid;
 }
 
+.themes .barButton button {
+    background-color: hwb(223 40% 28%);
+}
+
 .themes button p {
     display: none;
 }
 
 .openThemes {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 110px;
     margin-top: 50px;
     position: absolute;
     background-color: white;
+    box-shadow: 0px 3px 15px black;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 15px;
+}
+
+.openThemes .grid .color {
+    justify-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.color button {
+    outline: auto;
+    outline-color: black;
+    outline-style: solid;
+}
+
+.themeList {
+    display:grid;
 }
 
 #open .openThemes {
