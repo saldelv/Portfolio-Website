@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 import Logo from '../assets/r.jpg';
 import ReorderIcon from '@mui/icons-material/Reorder';
-import Themes from './themes';
+import Themes from './Themes';
 
 function Navbar() {
     const [openLinks, setOpenLinks] = useState(false)

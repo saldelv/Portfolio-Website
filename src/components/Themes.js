@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import '../styles/themes.css'
+import '../styles/Themes.css'
 
 const themeColors = [
     {
