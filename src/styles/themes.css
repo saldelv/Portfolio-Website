@@ -16,10 +16,6 @@
     outline-style: solid;
 }
 
-.themes .barButton button {
-    background-color: hwb(223 40% 28%);
-}
-
 .themes button p {
     display: none;
 }
