@@ -30,7 +30,7 @@ const Typewriter = ({texts, delay, repeat}) => {
             }
             else if (repeat == true) {
                 setCurrentDirection(false);
-                setCurrentDelay(3000);
+                setCurrentDelay(1000);
                 if (currentLine == texts.length - 1) {
                     setCurrentLine(0);
                 }
