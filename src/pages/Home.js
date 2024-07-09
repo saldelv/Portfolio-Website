@@ -24,6 +24,11 @@ function Home() {
                     <button className="exit" onClick={() => setOpen(!open)}>
                         X
                     </button>
+                    <div className = "menuButtons">
+                        <Link to="/about"> About </Link>
+                        <Link to="/projects"> Projects </Link>
+                        <Link to="/contact"> Contact </Link>
+                    </div>
                 </div>
            </div>
         </div>
