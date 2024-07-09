@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom'
 import bg from '../assets/bg1.PNG';
+import close from '../assets/close.png'
 import '../styles/Home.css'
 import Typewriter from '../components/Typewriter';
 
@@ -18,10 +19,10 @@ function Home() {
                     I am:&emsp;
                     <Typewriter texts = {["A Computer Science Student", "A Diverse Project Developer", "An Active Github User"]} delay = {100} repeat = {true}/>
                 </p>
-                <button onClick={() => setOpen(!open)}>Learn More</button>
+                <button className="mainButton" onClick={() => setOpen(!open)}>Learn More</button>
                 <div className = "menu">
                     <button className="exit" onClick={() => setOpen(!open)}>
-
+                        X
                     </button>
                 </div>
            </div>

@@ -37,7 +37,7 @@
     -webkit-text-stroke-width: 0.3px;
 }
 
-.headerContainer button {
+.headerContainer .mainButton {
     color: black;
     border: none;
     border-radius: 5px;
@@ -51,7 +51,7 @@
     font-size: 20px;
 }
 
-.headerContainer button:hover {
+.headerContainer .mainButton:hover {
     background-color: #07090a;
     cursor: pointer;
     transition: 0.3s ease-in;
@@ -71,7 +71,14 @@
 }
 
 .menu .exit {
-    inset: 2rem, 2rem, 2rem, 2rem;
+    position: fixed;
+    right: 0;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
 }
 
 #open .menu {
