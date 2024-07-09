@@ -20,7 +20,9 @@ function Home() {
                 </p>
                 <button onClick={() => setOpen(!open)}>Learn More</button>
                 <div className = "menu">
-                    
+                    <button className="exit" onClick={() => setOpen(!open)}>
+
+                    </button>
                 </div>
            </div>
         </div>
