@@ -26,7 +26,9 @@ function Home() {
                     </button>
                     <div className = "menuButtons">
                         <Link to="/about"> About </Link>
+                        <a>|</a>
                         <Link to="/projects"> Projects </Link>
+                        <a>|</a>
                         <Link to="/contact"> Contact </Link>
                     </div>
                 </div>

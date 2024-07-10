@@ -43,6 +43,10 @@
     position: relative;
 }
 
+.openThemes .grid .color button {
+    animation: slide-in 0.5s;
+}
+
 .color button {
     outline: auto;
     outline-color: black;
@@ -59,4 +63,15 @@
 
 #close .openThemes {
     display: none;
+}
+
+@keyframes slide-in {
+    from {
+        height: 15px;
+        width: 15px;
+    }
+    to {
+        height: 30px;
+        width: 30px;
+    }
 }

@@ -79,6 +79,7 @@
     justify-content: center;
     transform: translate(-50%, -50%);
     opacity: 1;
+    width: 1100px
 }
 
 .menu .menuButtons a {
@@ -86,6 +87,7 @@
     text-decoration: none;
     margin-right: 50px;
     font-size: 70px;
+    animation: pop-in 1s;
 }
 
 .menu .exit {
@@ -157,3 +159,12 @@
         opacity: 100;
     }
   }
+
+@keyframes pop-in {
+    from {
+        font-size: 0px;
+    }
+    to {
+        font-size: 70px;
+    }
+}
