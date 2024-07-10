@@ -39,7 +39,7 @@ function Contact() {
                     <label htmlFor="email">Email</label>
                     <input name="email" placeholder="Enter email" type="email" required/>
                     <label htmlFor="message">Message</label>
-                    <textarea rows="6" placeholder="Enter message" name="message" required> </textarea>
+                    <textarea rows="6" placeholder="Enter message" name="message" required></textarea>
                     <button type="submit"> Send Message </button>
                 </form>
                 <span>{result}</span>
