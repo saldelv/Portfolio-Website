@@ -1,6 +1,7 @@
 import React from 'react'
 import BannerImage from '../assets/contact.PNG';
-import '../styles/Contact.css'
+import '../styles/Contact.css';
+import pdf from '../assets/Salvatore_Del_Vecchio_Resume.pdf';
 
 function Contact() {
     const [result, setResult] = React.useState("");
@@ -34,7 +35,9 @@ function Contact() {
             <div className="right">
                 <div className = "heading">
                     <h1> Contact Me </h1>
-                    <button className="resumeButton"> See My Resume </button>
+                    <a href={pdf} target='_blank' rel='noopener noreferrer'>
+                        <button className="resumeButton"> See My Resume </button>
+                    </a>
                 </div>
                 <form id="contact-form" method="POST" onSubmit={onSubmit}>
                     <label htmlFor="name">Full Name</label>
