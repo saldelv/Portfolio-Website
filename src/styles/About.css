@@ -18,6 +18,12 @@
 .education {
     display: flex;
     flex-direction: row;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 25px;
+    height: 230px;
 }
 
 .educationText {
@@ -69,6 +75,16 @@
     margin-right: 160px;
     display: flex;
     justify-content: right;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 25px;
+    height: 270px;
+}
+
+.about .skills .skillsText {
+    margin-right: 160px;
 }
 
 .about .aboutBottom .skills .skillsImages {
@@ -97,6 +113,11 @@
 .activities {
     margin-top: 200px;
     display: flex;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 25px;
 }
 
 .secondList {
@@ -106,6 +127,7 @@
 .about .aboutBottom .activities img {
     margin-left: 300px;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 @keyframes fade-in {
