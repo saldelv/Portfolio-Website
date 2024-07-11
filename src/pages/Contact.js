@@ -32,7 +32,10 @@ function Contact() {
         <div className="contact">
             <div className="left" style={{ backgroundImage: `url(${BannerImage})`}}></div>
             <div className="right">
-                <h1> Contact Me </h1>
+                <div className = "heading">
+                    <h1> Contact Me </h1>
+                    <button className="resumeButton"> See My Resume </button>
+                </div>
                 <form id="contact-form" method="POST" onSubmit={onSubmit}>
                     <label htmlFor="name">Full Name</label>
                     <input name="name" placeholder="Enter full name" type="text" required/>
