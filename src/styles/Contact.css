@@ -33,6 +33,11 @@
     flex-direction: row;
 }
 
+.contact .right .heading a {
+    width: 140px;
+    height: 40px;
+}
+
 .contact .right h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 10;
