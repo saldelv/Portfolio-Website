@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.6a3a8f76.css",
-    "main.js": "/Portfolio-Website/static/js/main.dd5b0bfb.js",
+    "main.css": "/Portfolio-Website/static/css/main.53d54ea4.css",
+    "main.js": "/Portfolio-Website/static/js/main.da88a22a.js",
     "static/js/453.68693753.chunk.js": "/Portfolio-Website/static/js/453.68693753.chunk.js",
     "static/media/banner.PNG": "/Portfolio-Website/static/media/banner.82340b9ef7954d41e2b0.PNG",
     "static/media/bg1.PNG": "/Portfolio-Website/static/media/bg1.5304a552529c0b30cc2a.PNG",
     "static/media/r.jpg": "/Portfolio-Website/static/media/r.c2aa5ad55aab4c6ed85b.jpg",
+    "static/media/pfp.PNG": "/Portfolio-Website/static/media/pfp.732e954266fd774fbe64.PNG",
     "static/media/wmlogo.png": "/Portfolio-Website/static/media/wmlogo.ba54bc8d15d49ef31e4c.png",
     "static/media/Salvatore_Del_Vecchio_Resume.pdf": "/Portfolio-Website/static/media/Salvatore_Del_Vecchio_Resume.32873282dd0644e3cc4b.pdf",
     "static/media/javascriptlogo.png": "/Portfolio-Website/static/media/javascriptlogo.ea1687b273c19d4adec7.png",
@@ -16,12 +17,12 @@
     "static/media/pythonlogo.png": "/Portfolio-Website/static/media/pythonlogo.4fd08e3a50c6a289fc03.png",
     "static/media/javalogo.png": "/Portfolio-Website/static/media/javalogo.375f91150aebfc2e19ef.png",
     "index.html": "/Portfolio-Website/index.html",
-    "main.6a3a8f76.css.map": "/Portfolio-Website/static/css/main.6a3a8f76.css.map",
-    "main.dd5b0bfb.js.map": "/Portfolio-Website/static/js/main.dd5b0bfb.js.map",
+    "main.53d54ea4.css.map": "/Portfolio-Website/static/css/main.53d54ea4.css.map",
+    "main.da88a22a.js.map": "/Portfolio-Website/static/js/main.da88a22a.js.map",
     "453.68693753.chunk.js.map": "/Portfolio-Website/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a3a8f76.css",
-    "static/js/main.dd5b0bfb.js"
+    "static/css/main.53d54ea4.css",
+    "static/js/main.da88a22a.js"
   ]
 }
