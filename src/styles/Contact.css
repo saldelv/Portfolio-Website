@@ -10,9 +10,14 @@
     flex: 50%;
     background-position: center;
     background-repeat: no-repeat;
-    filter: drop-shadow(0px 3px 10px black)
+    filter: drop-shadow(0px 3px 10px black);
+    background-image: url('../assets/contact.PNG');
 }
 
+.contact .left:hover {
+    background-image: url('../assets/pfp.PNG');
+    background-size: 600px;
+}
 
 .contact .right {
     height: 100%;

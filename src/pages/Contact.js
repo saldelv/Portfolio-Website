@@ -1,5 +1,6 @@
 import React from 'react'
 import BannerImage from '../assets/contact.PNG';
+import profilePicture from '../assets/pfp.PNG'
 import '../styles/Contact.css';
 import pdf from '../assets/Salvatore_Del_Vecchio_Resume.pdf';
 
@@ -31,7 +32,9 @@ function Contact() {
 
     return (
         <div className="contact">
-            <div className="left" style={{ backgroundImage: `url(${BannerImage})`}}></div>
+            <div className="left">
+                <div style={{ backgroundImage: `url(${BannerImage})`}}></div>
+            </div>
             <div className="right">
                 <div className = "heading">
                     <h1> Contact Me </h1>
