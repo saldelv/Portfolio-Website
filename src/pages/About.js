@@ -68,14 +68,6 @@ function About() {
                     </div>
                     <div className="skillsText">
                         <h2>Skills</h2>
-                        <ul>
-                            <li>Python</li>
-                            <li>Java</li>
-                            <li>JavaScript</li>
-                            <li>Git</li>
-                            <li>C++</li>
-                            <li>Software Development</li>
-                        </ul>
                     </div>
                 </div>
 

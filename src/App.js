@@ -9,35 +9,6 @@ import Footer from "./components/Footer";
 
 function App() {
 
-  const skills = [
-    "HTML",
-    "CSS",
-    "SASS",
-    "JavaScript",
-    "TypeScript",
-    "TailwindCSS",
-    "MUI",
-    "Express",
-    "MongoDB",
-    "SQL",
-    "React",
-    "Vue",
-    "Node.js",
-    "Babel",
-    "StoryBook",
-    "ES6",
-    "Jest",
-    "Webpack",
-    "Git",
-    "GitHub",
-    "EJS",
-    "RESTful API"
-  ];
-  const options = {
-    radius: 200,
-    maxSpeed: 1.5
-  };
-
   return (
     <div className="App">
       <Router basename={process.env.PUBLIC_URL}>

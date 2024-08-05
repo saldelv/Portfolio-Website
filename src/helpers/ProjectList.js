@@ -2,6 +2,12 @@ import icon from '../assets/github.png';
 
 export const ProjectList = [
     {
+        name: "Chip-8 Emulator",
+        image: icon,
+        description: "Emulator to run Chip-8 interpreted games",
+        link: "https://github.com/saldelv/Chip-8-Emulator"
+    },
+    {
         name: "Desktop RPG",
         image: icon,
         description: "Simple RPG game that is played on your taskbar",

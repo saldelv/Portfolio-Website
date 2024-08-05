@@ -1,5 +1,4 @@
 import React from 'react'
-import BannerImage from '../assets/contact.PNG';
 import profilePicture from '../assets/pfp.PNG'
 import '../styles/Contact.css';
 import pdf from '../assets/Salvatore_Del_Vecchio_Resume.pdf';
@@ -33,7 +32,7 @@ function Contact() {
     return (
         <div className="contact">
             <div className="left">
-                <div style={{ backgroundImage: `url(${BannerImage})`}}></div>
+                <div style={{ backgroundImage: `url(${profilePicture})`}}></div>
             </div>
             <div className="right">
                 <div className = "heading">
@@ -42,15 +41,18 @@ function Contact() {
                         <button className="resumeButton"> See My Resume </button>
                     </a>
                 </div>
-                <form id="contact-form" method="POST" onSubmit={onSubmit}>
-                    <label htmlFor="name">Full Name</label>
-                    <input name="name" placeholder="Enter full name" type="text" required/>
-                    <label htmlFor="email">Email</label>
-                    <input name="email" placeholder="Enter email" type="email" required/>
-                    <label htmlFor="message">Message</label>
-                    <textarea rows="6" placeholder="Enter message" name="message" required></textarea>
-                    <button type="submit"> Send Message </button>
-                </form>
+                <div className = "formContainer">
+                    <div className = "title">Contact Form</div>
+                    <form id="contact-form" method="POST" onSubmit={onSubmit}>
+                        <label htmlFor="name">Name:</label>
+                        <input name="name" placeholder="Enter full name" type="text" required/>
+                        <label htmlFor="email">Email:</label>
+                        <input name="email" placeholder="Enter email" type="email" required/>
+                        <label htmlFor="message">Message:</label>
+                        <textarea rows="6" placeholder="Enter message" name="message" required></textarea>
+                        <button type="submit"> Send Message </button>
+                    </form>
+                </div>
                 <span>{result}</span>
             </div>
         </div>

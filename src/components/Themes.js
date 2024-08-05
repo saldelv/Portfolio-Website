@@ -6,10 +6,9 @@ const themeColors = [
         color: 'white'
     },
     {
-        color: '#3a3a3a'
+        color: '#787878'
     },
     {
-        
         color: '#667db8'
     },
     {

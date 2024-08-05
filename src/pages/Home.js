@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom'
-import bg from '../assets/bg1.PNG';
 import close from '../assets/close.png'
+import me from '../assets/me.png'
 import '../styles/Home.css'
 import Typewriter from '../components/Typewriter';
 
@@ -10,7 +10,7 @@ function Home() {
     const [open, setOpen] = useState(false);
 
     return (
-        <div className ="home" id={open ? "open" : "close"} style={{ backgroundImage: `url(${bg})`}}>
+        <div className ="home" id={open ? "open" : "close"}>
            <div className="headerContainer">
                 <h1>
                     <Typewriter texts = {["Salvatore Del Vecchio"]} delay = {100} repeat = {false}/>
@@ -33,6 +33,7 @@ function Home() {
                     </div>
                 </div>
            </div>
+           <div className ="homeImage" style={{ backgroundImage: `url(${me})`}}></div>
         </div>
     );
 }
