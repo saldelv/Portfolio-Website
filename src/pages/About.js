@@ -7,6 +7,7 @@ import javalogo from '../assets/javalogo.png'
 import javascriptlogo from '../assets/javascriptlogo.png'
 import gitlogo from '../assets/gitlogo.png'
 import cpplogo from '../assets/cpplogo.png'
+import useSize from '../helpers/useSize';
 
 import '../styles/About.css'
 
@@ -35,13 +36,18 @@ const SkillList = [
     
 
 function About() {
+
+    var windowWidth = useSize()[0];
+    const w2 = windowWidth / 3;
+    const w3 = windowWidth / 5;
+
     return (
-        <div className="about">
-            <div className ="home" style={{ backgroundImage: `url(${BannerImage})`}}></div>
+        <div className="about" style={{height: 2300 - w2}}>
+            <div className ="banner" style={{ backgroundImage: `url(${BannerImage})`}}></div>
             <div className="aboutBottom">
                 <h1>About Me</h1>
 
-                <div className = "education">
+                <div className = "education" style={{width: windowWidth - 50, height: 850 - w2}}>
                     <div className="educationText">
                         <h2>Education</h2>
                         <ul>
@@ -53,11 +59,11 @@ function About() {
                     <img src = {wmlogo}></img>
                 </div>
 
-                <div className = "skills">
+                <div className = "skills" style={{width: windowWidth - 50}}>
                     <div className = "skillsImages">
                         {SkillList.map((sItem, key) => {
                             return (
-                            <div className="item">
+                            <div className="item" style={{marginRight: -220 + w3}}>
                                 <div className = "hidden">
                                     <p>{sItem.name}</p>
                                 </div>
@@ -68,19 +74,25 @@ function About() {
                     </div>
                     <div className="skillsText">
                         <h2>Skills</h2>
+                        <ul>
+                            <li>Python</li>
+                            <li>Java</li>
+                            <li>JavaScript</li>
+                            <li>Git</li>
+                            <li>C++</li>
+                            <li>Software Development</li>
+                        </ul>
                     </div>
                 </div>
 
-                <div className = "activities">
+                <div className = "activities" style={{width: windowWidth - 50, height: 970 - w2}}>
                     <div className="activitiesText">
                         <h2>Activities</h2>
-                        <ul>
-                            <li>Archery:</li>
-                            <ul className='secondList'>
-                                <li>W&M Archery Club Armorer and Team Captain</li>
-                                <li>USA Archery certified level 2 coach</li>
-                                <li>Competed at a national level</li>
-                            </ul>
+                        <p>Archery:</p>
+                        <ul className='secondList'>
+                            <li>W&M Archery Club Armorer and Team Captain</li>
+                            <li>USA Archery certified level 2 coach</li>
+                            <li>Competed at a national level</li>
                         </ul>
                     </div>
                     <img src = {archery}></img>
