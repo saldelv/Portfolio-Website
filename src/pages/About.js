@@ -2,11 +2,13 @@ import React from 'react'
 import BannerImage from '../assets/banner.PNG';
 import wmlogo from '../assets/wmlogo.png';
 import archery from '../assets/archery.jpg';
+import archery from '../assets/archery.jpg';
 import pythonlogo from '../assets/pythonlogo.png'
 import javalogo from '../assets/javalogo.png'
 import javascriptlogo from '../assets/javascriptlogo.png'
 import gitlogo from '../assets/gitlogo.png'
 import cpplogo from '../assets/cpplogo.png'
+import useSize from '../helpers/useSize';
 import useSize from '../helpers/useSize';
 
 import '../styles/About.css'
@@ -41,12 +43,20 @@ function About() {
     const w2 = windowWidth / 3;
     const w3 = windowWidth / 5;
 
+
+    var windowWidth = useSize()[0];
+    const w2 = windowWidth / 3;
+    const w3 = windowWidth / 5;
+
     return (
+        <div className="about" style={{height: 2300 - w2}}>
+            <div className ="banner" style={{ backgroundImage: `url(${BannerImage})`}}></div>
         <div className="about" style={{height: 2300 - w2}}>
             <div className ="banner" style={{ backgroundImage: `url(${BannerImage})`}}></div>
             <div className="aboutBottom">
                 <h1>About Me</h1>
 
+                <div className = "education" style={{width: windowWidth - 50, height: 850 - w2}}>
                 <div className = "education" style={{width: windowWidth - 50, height: 850 - w2}}>
                     <div className="educationText">
                         <h2>Education</h2>
@@ -60,9 +70,11 @@ function About() {
                 </div>
 
                 <div className = "skills" style={{width: windowWidth - 50}}>
+                <div className = "skills" style={{width: windowWidth - 50}}>
                     <div className = "skillsImages">
                         {SkillList.map((sItem, key) => {
                             return (
+                            <div className="item" style={{marginRight: -220 + w3}}>
                             <div className="item" style={{marginRight: -220 + w3}}>
                                 <div className = "hidden">
                                     <p>{sItem.name}</p>
@@ -87,22 +99,15 @@ function About() {
 
                 <div className = "activities" style={{width: windowWidth - 50, height: 970 - w2}}>
                     <div className="activitiesText">
-<<<<<<< HEAD
                         <h2>Activities and Events</h2>
-=======
-                        <h2>Activities</h2>
->>>>>>> 27b33ec851b2a2c5a6d9ee7dee1c3e5ce2fee5ed
                         <p>Archery:</p>
                         <ul className='secondList'>
                             <li>W&M Archery Club Armorer and Team Captain</li>
                             <li>USA Archery certified level 2 coach</li>
                             <li>Competed at a national level</li>
                         </ul>
-<<<<<<< HEAD
                         <p>W&M Game Development Club</p>
                         <p>&hacks William and Mary Hackathon Attendee</p>
-=======
->>>>>>> 27b33ec851b2a2c5a6d9ee7dee1c3e5ce2fee5ed
                     </div>
                     <img src = {archery}></img>
                 </div>

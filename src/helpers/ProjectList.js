@@ -2,7 +2,6 @@ import icon from '../assets/github.png';
 
 export const ProjectList = [
     {
-<<<<<<< HEAD
         name: "PocketSplit",
         image: icon,
         description: "Improved mobile stopwatch app",
@@ -15,8 +14,6 @@ export const ProjectList = [
         link: "https://github.com/saldelv/Webcam-to-ASCII-Art"
     },
     {
-=======
->>>>>>> 27b33ec851b2a2c5a6d9ee7dee1c3e5ce2fee5ed
         name: "Chip-8 Emulator",
         image: icon,
         description: "Emulator to run Chip-8 interpreted games",

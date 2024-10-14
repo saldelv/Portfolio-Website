@@ -1,13 +1,11 @@
 .about {
     width: 100%;
     height: 180vh;
+    height: 180vh;
     display: flex;
     flex-direction: column;
     animation: fade-in 1s;
-<<<<<<< HEAD
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-=======
->>>>>>> 27b33ec851b2a2c5a6d9ee7dee1c3e5ce2fee5ed
 }
 
 .banner {
@@ -40,6 +38,12 @@
     margin-right: 10px;
     margin-top: 25px;
     height: 250px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 25px;
+    height: 250px;
 }
 
 .educationText {
@@ -66,10 +70,6 @@
     height: 30px;
     text-align: left;
     text-decoration: underline;
-<<<<<<< HEAD
-=======
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
->>>>>>> 27b33ec851b2a2c5a6d9ee7dee1c3e5ce2fee5ed
     margin-left: 160px;
 }
 
@@ -78,16 +78,13 @@
     color: black;
     height: 30px;
     text-align: left;
-<<<<<<< HEAD
-=======
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
->>>>>>> 27b33ec851b2a2c5a6d9ee7dee1c3e5ce2fee5ed
     margin-left: 160px;
 }
 
 .about .aboutBottom .education img {
     height: 109px;
     width: 570px;
+    margin-left: 200px;
     margin-left: 200px;
     margin-top: 70px;
 }
@@ -96,6 +93,16 @@
     margin-right: 160px;
     display: flex;
     justify-content: right;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 25px;
+    height: 270px;
+}
+
+.about .skills .skillsText {
+    margin-right: 100px;
     border: 3px solid black;
     border-radius: 10px;
     margin-left: 10px;
@@ -140,7 +147,6 @@
     margin-bottom: 25px;
 }
 
-<<<<<<< HEAD
 .activitiesText {
     display:flex;
     flex-direction: column;
@@ -148,8 +154,6 @@
     white-space: normal;
 }
 
-=======
->>>>>>> 27b33ec851b2a2c5a6d9ee7dee1c3e5ce2fee5ed
 .activities p {
     margin-left: 160px;
 }
@@ -159,15 +163,8 @@
 }
 
 .about .aboutBottom .activities img {
-<<<<<<< HEAD
     margin-left: 290px;
     margin-top: 20px;
-=======
-    margin-left: 460px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-right: 10px;
->>>>>>> 27b33ec851b2a2c5a6d9ee7dee1c3e5ce2fee5ed
     box-shadow: 0px 3px 10px black;
     height: 300px;
 }
