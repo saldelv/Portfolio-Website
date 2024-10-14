@@ -2,13 +2,11 @@ import React from 'react'
 import BannerImage from '../assets/banner.PNG';
 import wmlogo from '../assets/wmlogo.png';
 import archery from '../assets/archery.jpg';
-import archery from '../assets/archery.jpg';
 import pythonlogo from '../assets/pythonlogo.png'
 import javalogo from '../assets/javalogo.png'
 import javascriptlogo from '../assets/javascriptlogo.png'
 import gitlogo from '../assets/gitlogo.png'
 import cpplogo from '../assets/cpplogo.png'
-import useSize from '../helpers/useSize';
 import useSize from '../helpers/useSize';
 
 import '../styles/About.css'
