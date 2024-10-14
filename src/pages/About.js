@@ -41,20 +41,12 @@ function About() {
     const w2 = windowWidth / 3;
     const w3 = windowWidth / 5;
 
-
-    var windowWidth = useSize()[0];
-    const w2 = windowWidth / 3;
-    const w3 = windowWidth / 5;
-
     return (
-        <div className="about" style={{height: 2300 - w2}}>
-            <div className ="banner" style={{ backgroundImage: `url(${BannerImage})`}}></div>
         <div className="about" style={{height: 2300 - w2}}>
             <div className ="banner" style={{ backgroundImage: `url(${BannerImage})`}}></div>
             <div className="aboutBottom">
                 <h1>About Me</h1>
 
-                <div className = "education" style={{width: windowWidth - 50, height: 850 - w2}}>
                 <div className = "education" style={{width: windowWidth - 50, height: 850 - w2}}>
                     <div className="educationText">
                         <h2>Education</h2>
@@ -68,11 +60,9 @@ function About() {
                 </div>
 
                 <div className = "skills" style={{width: windowWidth - 50}}>
-                <div className = "skills" style={{width: windowWidth - 50}}>
                     <div className = "skillsImages">
                         {SkillList.map((sItem, key) => {
                             return (
-                            <div className="item" style={{marginRight: -220 + w3}}>
                             <div className="item" style={{marginRight: -220 + w3}}>
                                 <div className = "hidden">
                                     <p>{sItem.name}</p>
@@ -109,7 +99,6 @@ function About() {
                     </div>
                     <img src = {archery}></img>
                 </div>
-
             </div>
         </div>
     )
