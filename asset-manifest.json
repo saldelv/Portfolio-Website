@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.c87958ee.css",
-    "main.js": "/Portfolio-Website/static/js/main.b7c8978c.js",
+    "main.css": "/Portfolio-Website/static/css/main.872b9c8f.css",
+    "main.js": "/Portfolio-Website/static/js/main.c21c7ef5.js",
     "static/js/453.68693753.chunk.js": "/Portfolio-Website/static/js/453.68693753.chunk.js",
     "static/media/me.png": "/Portfolio-Website/static/media/me.1ab473083be3102573a4.png",
     "static/media/banner.PNG": "/Portfolio-Website/static/media/banner.82340b9ef7954d41e2b0.PNG",
     "static/media/r.jpg": "/Portfolio-Website/static/media/r.c2aa5ad55aab4c6ed85b.jpg",
     "static/media/pfp.PNG": "/Portfolio-Website/static/media/pfp.732e954266fd774fbe64.PNG",
-    "static/media/Salvatore_Del_Vecchio_Resume.pdf": "/Portfolio-Website/static/media/Salvatore_Del_Vecchio_Resume.b4d716b282db952e5331.pdf",
     "static/media/wmlogo.png": "/Portfolio-Website/static/media/wmlogo.ba54bc8d15d49ef31e4c.png",
     "static/media/javascriptlogo.png": "/Portfolio-Website/static/media/javascriptlogo.ea1687b273c19d4adec7.png",
     "static/media/archery.jpg": "/Portfolio-Website/static/media/archery.511aed0ae23e6fce5442.jpg",
@@ -15,13 +14,14 @@
     "static/media/close.png": "/Portfolio-Website/static/media/close.4c1810f46f24911c244e.png",
     "static/media/pythonlogo.png": "/Portfolio-Website/static/media/pythonlogo.4fd08e3a50c6a289fc03.png",
     "static/media/javalogo.png": "/Portfolio-Website/static/media/javalogo.375f91150aebfc2e19ef.png",
+    "static/media/Salvatore_Del_Vecchio_Resume.pdf": "/Portfolio-Website/static/media/Salvatore_Del_Vecchio_Resume.1fbb46e27332f6540ebe.pdf",
     "index.html": "/Portfolio-Website/index.html",
-    "main.c87958ee.css.map": "/Portfolio-Website/static/css/main.c87958ee.css.map",
-    "main.b7c8978c.js.map": "/Portfolio-Website/static/js/main.b7c8978c.js.map",
+    "main.872b9c8f.css.map": "/Portfolio-Website/static/css/main.872b9c8f.css.map",
+    "main.c21c7ef5.js.map": "/Portfolio-Website/static/js/main.c21c7ef5.js.map",
     "453.68693753.chunk.js.map": "/Portfolio-Website/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c87958ee.css",
-    "static/js/main.b7c8978c.js"
+    "static/css/main.872b9c8f.css",
+    "static/js/main.c21c7ef5.js"
   ]
 }
