@@ -87,13 +87,22 @@ function About() {
 
                 <div className = "activities" style={{width: windowWidth - 50, height: 970 - w2}}>
                     <div className="activitiesText">
+<<<<<<< HEAD
+                        <h2>Activities and Events</h2>
+=======
                         <h2>Activities</h2>
+>>>>>>> 27b33ec851b2a2c5a6d9ee7dee1c3e5ce2fee5ed
                         <p>Archery:</p>
                         <ul className='secondList'>
                             <li>W&M Archery Club Armorer and Team Captain</li>
                             <li>USA Archery certified level 2 coach</li>
                             <li>Competed at a national level</li>
                         </ul>
+<<<<<<< HEAD
+                        <p>W&M Game Development Club</p>
+                        <p>&hacks William and Mary Hackathon Attendee</p>
+=======
+>>>>>>> 27b33ec851b2a2c5a6d9ee7dee1c3e5ce2fee5ed
                     </div>
                     <img src = {archery}></img>
                 </div>

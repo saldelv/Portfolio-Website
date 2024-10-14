@@ -2,6 +2,21 @@ import icon from '../assets/github.png';
 
 export const ProjectList = [
     {
+<<<<<<< HEAD
+        name: "PocketSplit",
+        image: icon,
+        description: "Improved mobile stopwatch app",
+        link: "https://github.com/saldelv/Speedrun-Timer-App"
+    },
+    {
+        name: "Webcam to ASCII Art",
+        image: icon,
+        description: "Program to convert images and real-time webcam feed into ASCII art",
+        link: "https://github.com/saldelv/Webcam-to-ASCII-Art"
+    },
+    {
+=======
+>>>>>>> 27b33ec851b2a2c5a6d9ee7dee1c3e5ce2fee5ed
         name: "Chip-8 Emulator",
         image: icon,
         description: "Emulator to run Chip-8 interpreted games",
